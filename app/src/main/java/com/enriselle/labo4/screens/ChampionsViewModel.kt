@@ -1,11 +1,9 @@
 package com.enriselle.labo4.screens
 
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.enriselle.labo4.utils.ChampionDummyData
 import com.enriselle.labo4.utils.ChampionInformation
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

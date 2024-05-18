@@ -27,7 +27,7 @@ fun MainScreen(
 ) {
     val listChampions = viewModel.listChampions.collectAsState()
     val isLoading = viewModel.isLoading.collectAsState()
-
+    viewModel.fetchData()
     Labo4Theme {
         Column(
             modifier = Modifier
